@@ -1,0 +1,20 @@
+{
+  "name": "co-qiniu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "author": "otarim.com@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-request": "^0.2.1",
+    "lodash": "^3.10.0",
+    "mocha": "^2.2.5",
+    "qiniu": "^6.1.8",
+    "thenify": "^3.1.0",
+    "thenify-all": "^1.6.0"
+  }
+}
