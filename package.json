@@ -1,20 +1,37 @@
 {
   "name": "co-qiniu",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Qiniu sdk for node.js, which is for co-like interface.",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha --harmony"
+  "directories": {
+    "test": "test"
   },
-  "author": "otarim.com@gmail.com",
-  "license": "ISC",
   "dependencies": {
     "co": "^4.6.0",
-    "co-request": "^0.2.1",
     "lodash": "^3.10.0",
-    "mocha": "^2.2.5",
-    "qiniu": "^6.1.8",
+    "co-request": "^0.2.1",
     "thenify": "^3.1.0",
-    "thenify-all": "^1.6.0"
-  }
+    "thenify-all": "^1.6.0",
+    "qiniu": "^6.1.8"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otarim/co-qiniu.git"
+  },
+  "keywords": [
+    "qiniu",
+    "co-qiniu"
+  ],
+  "author": "otarim.com@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otarim/co-qiniu/issues"
+  },
+  "homepage": "https://github.com/otarim/co-qiniu"
 }
