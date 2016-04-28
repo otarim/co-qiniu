@@ -12,7 +12,7 @@
     "co-request": "^0.2.1",
     "thenify": "^3.1.0",
     "thenify-all": "^1.6.0",
-    "qiniu": "^6.1.8"
+    "qiniu": "6.1.8"
   },
   "devDependencies": {
     "mocha": "^2.2.5"
